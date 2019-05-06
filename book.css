@@ -1,6 +1,12 @@
-.title{
-    
+#title{
+    color: red;
+    text-decoration:underline;
 }
-.h1{
-    font-size:"15px";
+
+body{
+    color:red;
+    font-size:24px;
+}
+p{
+    background-color:silver;
 }
