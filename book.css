@@ -10,3 +10,11 @@ body{
 p{
     background-color:silver;
 }
+.search{
+    font-size:20px;
+}
+#titles{
+    width:20%;
+    height:20px;
+
+}
