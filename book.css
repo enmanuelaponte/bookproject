@@ -1,14 +1,14 @@
 #title{
-    color: red;
+    color: lightblue;
     text-decoration:underline;
 }
 
 body{
-    color:red;
+    color:lightblue;
     font-size:24px;
 }
 p{
-    background-color:silver;
+    background-color:brown;
 }
 .search{
     font-size:20px;
@@ -17,4 +17,26 @@ p{
     width:20%;
     height:20px;
 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 22.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 100px) {
+  .column {
+    width: 50%;
+  }
 }

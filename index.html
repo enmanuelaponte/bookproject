@@ -10,9 +10,18 @@
 <center><h1 id="title"> Basic Books </h1> </center>
         
         <div>
+            
             <p id="searcht"> Search for Book</p>
+            <input placeholder="Title" id="titles">
         <button class="search"> Search</button>
-        <input placeholder="Title" id="titles">
+        <button class="search" onClick="refreshpage()"> Refresh</button>
+
+        <script>
+            function refreshpage(){
+                window.location.reload();
+            }
+        </script>
+        
 
 </div>
 <div>
@@ -21,7 +30,7 @@
     <p class ="info" id="author">Author:</p>
     <p class ="info" id="category">Category:</p>
     <p class ="info" id="publisher">Publisher:</p>
-    <p class ="info" id="pagecount"> Pagecount:</p>
+    <p class ="info" id="pagecount"> PageCount:</p>
     <p id="picture"></p>
 </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -29,7 +38,36 @@
 
 <script src="book.js" ></script>
 
+<strong>Fan Favorites</strong>
+<div class="row">
+  <div class="column">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/41dr%2BAy2zjL._SX326_BO1,204,203,200_.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/71HA0LMmwZL.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/71OFqSRFDgL.jpg" style="width:100%">
+  </div>
+  <br>
+    <div class="column">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/31NZjKmAlJL.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/A1MQovbMDhL.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/81A%2BxnAJqYL.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/410ZirPKXKL._SX331_BO1,204,203,200_.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/71UsNaGsbxL.jpg" style="width:100%">
+  </div>
   
+  
+</div>
  
     </body>
 </html>
