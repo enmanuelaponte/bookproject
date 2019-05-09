@@ -1,4 +1,5 @@
 // JavaScript File
+
 $(".search").click(function(){
     var userinput = $("#titles").val();
     var request_url = "https://www.googleapis.com/books/v1/volumes?q=" + userinput ;
@@ -14,7 +15,7 @@ infobook2 = response.items[0].volumeInfo.publisher;
 infobook3 = response.items[0].volumeInfo.categories;
 infobook4 = response.items[0].volumeInfo.publisher;
 infobook5 = response.items[0].volumeInfo.pageCount;
-infobook6 = response.items[0].volumeInfo.imageLinks;
+infobook6 = response.items[0].volumeInfo.imageLinks[0];
 
             $("#description").append(infobook);
             $("#titleofbook").append(infobook1);
@@ -23,7 +24,6 @@ infobook6 = response.items[0].volumeInfo.imageLinks;
             $("#publisher").append(infobook4);
             $("#pagecount").append(infobook5);
             $("#picture").append("<img src=' + infobook6 + '>");
-
         }  
 
    
