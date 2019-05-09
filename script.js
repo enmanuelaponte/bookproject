@@ -22,7 +22,7 @@ infobook6 = response.items[0].volumeInfo.imageLinks;
             $("#category").append(infobook3);
             $("#publisher").append(infobook4);
             $("#pagecount").append(infobook5);
-            $("#picture").append("<img src=" + infobook6 + ">");
+            $("#picture").append("<img src=' + infobook6 + '>");
 
         }  
 
