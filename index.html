@@ -14,7 +14,6 @@
             <p id="searcht"> Search for Book</p>
             <input placeholder="Title" id="titles">
         <button class="search"> Search</button>
-        <button class="search" onClick="refreshpage()"> Refresh</button>
           <a id="buy" target="_blank"> Buy</a>
 
 
@@ -27,13 +26,27 @@
 
 </div>
 <div>
-    <p id="picture"></p>
-    <p class ="info" id="titleofbook">Title: </p>
-    <p class ="info" id="description">Description:</p>
-    <p class ="info" id="author">Author:</p>
-    <p class ="info" id="category">Category:</p>
-    <p class ="info" id="publisher">Publisher:</p>
-    <p class ="info" id="pagecount"> PageCount:</p>
+    <div class="info">
+      <p class="content" id="picture">  </p>
+    </div>
+    <div class ="info">Title: 
+      <p class="content" id="titleofbook"> </p>
+    </div>
+    <div class ="info"> Description:
+      <p class="content" id="description"> </p>
+    </div>
+    <div class ="info">Author:
+      <p class="content" id="author"></p>
+    </div>
+    <div class ="info">Category:
+      <p class="content" id="category"> </p>
+    </div>
+    <div class ="info">Publisher:
+      <p class="content" id="publisher"></p>
+    </div>
+    <div class ="info"> PageCount:
+      <p class="content" id="pagecount"></p>
+    </div>
 
 </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

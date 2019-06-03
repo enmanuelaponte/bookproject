@@ -51,4 +51,14 @@ body {
         0 -0.07em black;
 
 
+
+}
+.info{
+    font-weight: bold;
+    color: gold;
+    
+}
+.content{
+    font-weight: normal;
+    color: white;
 }
